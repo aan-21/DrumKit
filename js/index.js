@@ -1,7 +1,7 @@
 function makeSound(key) {
   var sound;
   if (key == 'w') {
-    sound = new Audio('/sounds/crash.mp3');
+    sound = new Audio('./sounds/crash.mp3');
   } else if (key == 'a') {
     sound = new Audio('/sounds/kick-bass.mp3');
   } else if (key == 's') {
