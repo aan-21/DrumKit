@@ -1,19 +1,19 @@
 function makeSound(key) {
   var sound;
   if (key == 'w') {
-    sound = new Audio('./sounds/crash.mp3');
+    sound = new Audio('/DrumKit/sounds/crash.mp3');
   } else if (key == 'a') {
-    sound = new Audio('/sounds/kick-bass.mp3');
+    sound = new Audio('DrumKit/sounds/kick-bass.mp3');
   } else if (key == 's') {
-    sound = new Audio('/sounds/snare.mp3');
+    sound = new Audio('DrumKit/sounds/snare.mp3');
   } else if (key == 'd') {
-    sound = new Audio('/sounds/tom-1.mp3');
+    sound = new Audio('DrumKit/sounds/tom-1.mp3');
   } else if (key == 'j') {
-    sound = new Audio('/sounds/tom-2.mp3');
+    sound = new Audio('DrumKit/sounds/tom-2.mp3');
   } else if (key == 'k') {
-    sound = new Audio('/sounds/tom-3.mp3');
+    sound = new Audio('DrumKit/sounds/tom-3.mp3');
   } else if (key == 'l') {
-    sound = new Audio('/sounds/tom-4.mp3');
+    sound = new Audio('DrumKit/sounds/tom-4.mp3');
   } else {
     console.log();
   }
